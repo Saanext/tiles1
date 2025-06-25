@@ -6,22 +6,22 @@ import { Gem, Palette, ShieldCheck, Truck } from 'lucide-react';
 const About = () => {
   const features = [
     {
-      icon: <Gem className="h-8 w-8 text-accent" />,
+      icon: <Gem className="h-8 w-8 text-primary" />,
       title: 'Premium Quality',
       description: 'We use the finest materials to ensure durability and a luxurious finish for all our products.',
     },
     {
-      icon: <Palette className="h-8 w-8 text-accent" />,
+      icon: <Palette className="h-8 w-8 text-primary" />,
       title: 'Custom Designs',
       description: 'Our team collaborates with you to create bespoke designs that perfectly match your vision.',
     },
     {
-      icon: <ShieldCheck className="h-8 w-8 text-accent" />,
+      icon: <ShieldCheck className="h-8 w-8 text-primary" />,
       title: 'Expert Craftsmanship',
       description: 'Our artisans possess decades of experience, blending traditional techniques with modern innovation.',
     },
     {
-      icon: <Truck className="h-8 w-8 text-accent" />,
+      icon: <Truck className="h-8 w-8 text-primary" />,
       title: 'Global Distribution',
       description: 'We deliver our exquisite products worldwide, ensuring safe and timely arrival.',
     },
@@ -44,7 +44,7 @@ const About = () => {
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
             {features.map((feature, index) => (
-              <Card key={index} className="bg-background/50 border-none shadow-sm hover:shadow-lg transition-shadow">
+              <Card key={index} className="shadow-none hover:bg-accent transition-colors">
                 <CardContent className="p-6 flex flex-col items-center text-center">
                   {feature.icon}
                   <h3 className="mt-4 mb-2 font-headline text-xl font-semibold">{feature.title}</h3>

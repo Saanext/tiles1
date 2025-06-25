@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
-import { Gem, Menu, X } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 import { Button } from './ui/button';
 import { cn } from '@/lib/utils';
 
@@ -35,8 +35,7 @@ const Header = () => {
     >
       <div className="container mx-auto flex h-20 items-center justify-between px-4 sm:px-6 lg:px-8">
         <Link href="/" className="flex items-center gap-2">
-          <Gem className="h-8 w-8 text-primary" />
-          <span className="text-xl font-bold font-headline tracking-wider">STYLEON</span>
+          <span className="text-2xl font-bold font-headline">STYLEON</span>
         </Link>
         
         <nav className="hidden md:flex items-center gap-6">
@@ -60,8 +59,7 @@ const Header = () => {
             <div className="fixed top-0 right-0 h-full w-4/5 max-w-xs bg-card p-6 shadow-xl" onClick={(e) => e.stopPropagation()}>
                 <div className="flex justify-between items-center mb-8">
                     <Link href="/" className="flex items-center gap-2">
-                        <Gem className="h-8 w-8 text-primary" />
-                        <span className="text-xl font-bold font-headline">STYLEON</span>
+                        <span className="text-2xl font-bold font-headline">STYLEON</span>
                     </Link>
                     <Button onClick={() => setIsMenuOpen(false)} variant="ghost" size="icon">
                         <X className="h-6 w-6" />

@@ -1,4 +1,4 @@
-import { Gem, Mail, Phone, MapPin } from 'lucide-react';
+import { Mail, Phone, MapPin } from 'lucide-react';
 import Link from 'next/link';
 
 const Footer = () => {
@@ -14,8 +14,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
           <div className="flex flex-col items-center lg:items-start">
             <Link href="/" className="flex items-center gap-2 mb-4">
-              <Gem className="h-8 w-8 text-primary" />
-              <span className="text-xl font-bold font-headline">STYLEON ART FACTORY</span>
+              <span className="text-2xl font-bold font-headline">STYLEON ART FACTORY</span>
             </Link>
             <p className="text-muted-foreground text-center lg:text-left max-w-xs">
               Exquisite crystal mosaics, tiles, and bathroom furnishings to transform your space.
