@@ -1,7 +1,7 @@
 "use client";
 
-import { useState, useRef, type FormEvent } from 'react';
-import { useFormState, useFormStatus } from 'react-dom';
+import { useState, useRef, type FormEvent, useActionState } from 'react';
+import { useFormStatus } from 'react-dom';
 import { getSuggestionForImage, getSuggestionForText } from '@/lib/actions';
 
 import AnimatedSection from '../AnimatedSection';
@@ -35,7 +35,7 @@ function SubmitButton({ idleText, submittingText }: { idleText: string; submitti
 }
 
 const AiToolImageForm = () => {
-  const [state, formAction] = useFormState(getSuggestionForImage, null);
+  const [state, formAction] = useActionState(getSuggestionForImage, null);
   const [preview, setPreview] = useState<string | null>(null);
   const fileInputRef = useRef<HTMLInputElement>(null);
   const formRef = useRef<HTMLFormElement>(null);
@@ -93,7 +93,7 @@ const AiToolImageForm = () => {
 };
 
 const AiToolTextForm = () => {
-  const [state, formAction] = useFormState(getSuggestionForText, null);
+  const [state, formAction] = useActionState(getSuggestionForText, null);
   return (
     <form action={formAction} className="space-y-6">
       <div className="space-y-2">
