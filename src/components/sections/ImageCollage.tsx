@@ -24,7 +24,7 @@ const collageItems = [
     src: 'https://images.unsplash.com/photo-1647670550126-4bc4a1877e8c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxOXx8bW9zYWljJTIwdGlsZXN8ZW58MHx8fHwxNzUwODcxMDg4fDA&ixlib=rb-4.1.0&q=80&w=1080',
     alt: 'A wide shot of luxury bathroom furnishings.',
     hint: 'luxury furnishing',
-    className: 'col-span-2 row-span-1',
+    className: 'md:col-span-2 md:row-span-1',
   },
 ];
 
@@ -40,7 +40,7 @@ const ImageCollage = () => {
             Witness the transformative power of our collections in a variety of stunning applications.
           </p>
         </div>
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 h-[300px] md:h-[600px]">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 h-[50vh] md:h-[75vh]">
           {collageItems.map((item, index) => (
             <div key={index} className={`relative w-full h-full overflow-hidden rounded-lg group ${item.className}`}>
               <Image
