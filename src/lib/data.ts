@@ -7,7 +7,7 @@ export const products: Product[] = [
     category: 'Mosaics',
     color: 'Blue',
     material: 'Crystal',
-    image: 'https://images.unsplash.com/photo-1521783965643-15c892b027e1?q=80&w=2070&auto=format&fit=crop',
+    image: 'https://images.pexels.com/photos/6900669/pexels-photo-6900669.jpeg',
     hint: 'blue mosaic'
   },
   {
@@ -16,7 +16,7 @@ export const products: Product[] = [
     category: 'Tiles',
     color: 'White',
     material: 'Glass',
-    image: 'https://images.unsplash.com/photo-1731045521188-5cd9014f88d9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxtb3NhaWMlMjB0aWxlc3xlbnwwfHx8fDE3NTA4NzEwODh8MA&ixlib=rb-4.1.0&q=80&w=1080',
+    image: 'https://images.pexels.com/photos/6900669/pexels-photo-6900669.jpeg',
     hint: 'white tile'
   },
   {
@@ -25,7 +25,7 @@ export const products: Product[] = [
     category: 'Basins',
     color: 'Gray',
     material: 'Stone',
-    image: 'https://images.unsplash.com/photo-1595427743931-a8383a59530a?q=80&w=1974&auto=format&fit=crop',
+    image: 'https://images.pexels.com/photos/6900669/pexels-photo-6900669.jpeg',
     hint: 'stone sink'
   },
   {
@@ -34,7 +34,7 @@ export const products: Product[] = [
     category: 'Furnishings',
     color: 'Brown',
     material: 'Wood',
-    image: 'https://images.unsplash.com/photo-1598449356475-b9f71db7d847?q=80&w=1964&auto=format&fit=crop',
+    image: 'https://images.pexels.com/photos/6900669/pexels-photo-6900669.jpeg',
     hint: 'wood vanity'
   },
   {
@@ -43,7 +43,7 @@ export const products: Product[] = [
     category: 'Tiles',
     color: 'Green',
     material: 'Glass',
-    image: 'https://images.unsplash.com/photo-1629838424268-937b38d389a0?q=80&w=1964&auto=format&fit=crop',
+    image: 'https://images.pexels.com/photos/6900669/pexels-photo-6900669.jpeg',
     hint: 'green tile'
   },
   {
@@ -52,7 +52,7 @@ export const products: Product[] = [
     category: 'Mosaics',
     color: 'Gold',
     material: 'Crystal',
-    image: 'https://images.unsplash.com/photo-1565503252199-6e4dba58f96b?q=80&w=1974&auto=format&fit=crop',
+    image: 'https://images.pexels.com/photos/6900669/pexels-photo-6900669.jpeg',
     hint: 'gold mosaic'
   },
   {
@@ -61,7 +61,7 @@ export const products: Product[] = [
     category: 'Basins',
     color: 'Black',
     material: 'Ceramic',
-    image: 'https://images.unsplash.com/photo-1609272304913-9159b36015b5?q=80&w=1974&auto=format&fit=crop',
+    image: 'https://images.pexels.com/photos/6900669/pexels-photo-6900669.jpeg',
     hint: 'black sink'
   },
   {
@@ -70,7 +70,7 @@ export const products: Product[] = [
     category: 'Furnishings',
     color: 'Silver',
     material: 'Metal',
-    image: 'https://images.unsplash.com/photo-1572949645841-094f3a9c4c94?q=80&w=1974&auto=format&fit=crop',
+    image: 'https://images.pexels.com/photos/6900669/pexels-photo-6900669.jpeg',
     hint: 'chrome faucet'
   },
 ];
