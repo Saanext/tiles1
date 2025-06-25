@@ -76,9 +76,8 @@ const Products = () => {
                     src={product.image}
                     alt={product.name}
                     data-ai-hint={product.hint}
-                    layout="fill"
-                    objectFit="cover"
-                    className="transition-transform duration-300 group-hover:scale-105"
+                    fill
+                    className="object-cover transition-transform duration-300 group-hover:scale-105"
                   />
                 </div>
                 <div className="p-4">
