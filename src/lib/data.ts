@@ -7,7 +7,7 @@ export const products: Product[] = [
     category: 'Mosaics',
     color: 'Blue',
     material: 'Crystal',
-    image: 'https://images.pexels.com/photos/6900669/pexels-photo-6900669.jpeg',
+    image: 'https://www.styleonartfactory.com/wp-content/uploads/2018/05/CT01GB-247x296.jpg',
     hint: 'blue mosaic'
   },
   {
@@ -16,7 +16,7 @@ export const products: Product[] = [
     category: 'Tiles',
     color: 'White',
     material: 'Glass',
-    image: 'https://images.pexels.com/photos/6900669/pexels-photo-6900669.jpeg',
+    image: 'https://www.styleonartfactory.com/wp-content/uploads/2018/05/CT01GB-247x296.jpg',
     hint: 'white tile'
   },
   {
@@ -25,7 +25,7 @@ export const products: Product[] = [
     category: 'Basins',
     color: 'Gray',
     material: 'Stone',
-    image: 'https://images.pexels.com/photos/6900669/pexels-photo-6900669.jpeg',
+    image: 'https://www.styleonartfactory.com/wp-content/uploads/2018/05/CT01GB-247x296.jpg',
     hint: 'stone sink'
   },
   {
@@ -34,7 +34,7 @@ export const products: Product[] = [
     category: 'Furnishings',
     color: 'Brown',
     material: 'Wood',
-    image: 'https://images.pexels.com/photos/6900669/pexels-photo-6900669.jpeg',
+    image: 'https://www.styleonartfactory.com/wp-content/uploads/2018/05/CT01GB-247x296.jpg',
     hint: 'wood vanity'
   },
   {
@@ -43,7 +43,7 @@ export const products: Product[] = [
     category: 'Tiles',
     color: 'Green',
     material: 'Glass',
-    image: 'https://images.pexels.com/photos/6900669/pexels-photo-6900669.jpeg',
+    image: 'https://www.styleonartfactory.com/wp-content/uploads/2018/05/CT01GB-247x296.jpg',
     hint: 'green tile'
   },
   {
@@ -52,7 +52,7 @@ export const products: Product[] = [
     category: 'Mosaics',
     color: 'Gold',
     material: 'Crystal',
-    image: 'https://images.pexels.com/photos/6900669/pexels-photo-6900669.jpeg',
+    image: 'https://www.styleonartfactory.com/wp-content/uploads/2018/05/CT01GB-247x296.jpg',
     hint: 'gold mosaic'
   },
   {
@@ -61,7 +61,7 @@ export const products: Product[] = [
     category: 'Basins',
     color: 'Black',
     material: 'Ceramic',
-    image: 'https://images.pexels.com/photos/6900669/pexels-photo-6900669.jpeg',
+    image: 'https://www.styleonartfactory.com/wp-content/uploads/2018/05/CT01GB-247x296.jpg',
     hint: 'black sink'
   },
   {
@@ -70,7 +70,7 @@ export const products: Product[] = [
     category: 'Furnishings',
     color: 'Silver',
     material: 'Metal',
-    image: 'https://images.pexels.com/photos/6900669/pexels-photo-6900669.jpeg',
+    image: 'https://www.styleonartfactory.com/wp-content/uploads/2018/05/CT01GB-247x296.jpg',
     hint: 'chrome faucet'
   },
 ];
