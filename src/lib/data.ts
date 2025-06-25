@@ -34,7 +34,7 @@ export const products: Product[] = [
     category: 'Furnishings',
     color: 'Brown',
     material: 'Wood',
-    image: 'https://www.styleonartfactory.com/wp-content/uploads/2018/05/CT01GB-247x296.jpg',
+    image: 'https://images.unsplash.com/photo-1730835358693-25dc65c50884?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxtb3NpYyUyMHRpbGVzfGVufDB8fHx8MTc1MDg3NjczMXww&ixlib=rb-4.1.0&q=80&w=1080',
     hint: 'wood vanity'
   },
   {
