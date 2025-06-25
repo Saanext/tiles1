@@ -8,7 +8,7 @@ const confidenceItems = [
     hint: 'modern kitchen',
   },
   {
-    src: 'https://placehold.co/400x500.png',
+    src: 'https://images.unsplash.com/photo-1595916430766-95b932a5b032?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtb3NhaWMlMjB0aWxlc3xlbnwwfHx8fDE3NTA4NzEwODh8MA&ixlib=rb-4.1.0&q=80&w=1080',
     alt: 'The storefront of a tile shop.',
     hint: 'tile storefront',
   },
