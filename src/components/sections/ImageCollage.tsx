@@ -9,7 +9,7 @@ const collageItems = [
     className: 'md:col-span-2 md:row-span-2',
   },
   {
-    src: 'https://placehold.co/400x400.png',
+    src: 'https://images.unsplash.com/photo-1702275787549-cd7c28ab061d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyMHx8bW9zaWMlMjB0aWxlc3xlbnwwfHx8fDE3NTA4NzY3MzF8MA&ixlib=rb-4.1.0&q=80&w=1080',
     alt: 'Close-up detail of iridescent glass tiles.',
     hint: 'glass tiles',
     className: 'col-span-1 row-span-1',
