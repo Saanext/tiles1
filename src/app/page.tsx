@@ -6,6 +6,7 @@ import DesignTool from '@/components/sections/DesignTool';
 import Testimonials from '@/components/sections/Testimonials';
 import Contact from '@/components/sections/Contact';
 import About from '@/components/sections/About';
+import Confidence from '@/components/sections/Confidence';
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
         <Hero />
         <About />
         <Products />
+        <Confidence />
         <DesignTool />
         <Testimonials />
         <Contact />
