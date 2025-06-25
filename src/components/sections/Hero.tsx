@@ -18,7 +18,7 @@ const slides = [
   {
     title: 'STYLEON ART FACTORY',
     description: 'Crafting beauty in glass and stone for the most discerning spaces.',
-    image: 'https://placehold.co/1920x1080',
+    image: 'https://images.pexels.com/photos/2251247/pexels-photo-2251247.jpeg',
     hint: 'modern interior',
     buttonLabel: 'Explore Collections',
     buttonLink: '#products',
