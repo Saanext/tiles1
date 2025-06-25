@@ -16,7 +16,7 @@ export const products: Product[] = [
     category: 'Tiles',
     color: 'White',
     material: 'Glass',
-    image: 'https://images.unsplash.com/photo-1596362569041-432098e03213?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx3aGl0ZSUyMG1hcmJsZSUyMHRpbGV8ZW58MHx8fHwxNzE5MzM3OTM1fDA&ixlib=rb-4.0.3&q=80&w=1080',
+    image: 'https://images.unsplash.com/photo-1731045521188-5cd9014f88d9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxtb3NhaWMlMjB0aWxlc3xlbnwwfHx8fDE3NTA4NzEwODh8MA&ixlib=rb-4.1.0&q=80&w=1080',
     hint: 'white tile'
   },
   {
