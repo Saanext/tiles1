@@ -18,7 +18,7 @@ const confidenceItems = [
     hint: 'designers collaboration',
   },
   {
-    src: 'https://placehold.co/400x500.png',
+    src: 'https://images.unsplash.com/photo-1699640358988-69e5487f91d3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8bW9zYWljJTIwdGlsZXN8ZW58MHx8fHwxNzUwODcxMDg4fDA&ixlib=rb-4.1.0&q=80&w=1080',
     alt: 'Planning a design with tile samples on a blueprint.',
     hint: 'design blueprint',
   },
