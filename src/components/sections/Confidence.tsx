@@ -3,7 +3,7 @@ import AnimatedSection from '../AnimatedSection';
 
 const confidenceItems = [
   {
-    src: 'https://placehold.co/400x500.png',
+    src: 'https://images.unsplash.com/photo-1641220171683-c19c23a901b9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxtb3NhaWMlMjB0aWxlc3xlbnwwfHx8fDE3NTA4NzEwODh8MA&ixlib=rb-4.1.0&q=80&w=1080',
     alt: 'A modern kitchen with green tiles.',
     hint: 'modern kitchen',
   },
