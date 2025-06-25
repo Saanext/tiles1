@@ -26,7 +26,7 @@ const slides = [
   {
     title: 'Exquisite Crystal Mosaics',
     description: 'Transform your interiors with our dazzling collection of crystal glass mosaics.',
-    image: 'https://placehold.co/1920x1080',
+    image: 'https://images.pexels.com/photos/5570226/pexels-photo-5570226.jpeg',
     hint: 'crystal mosaic tile',
     buttonLabel: 'View Mosaics',
     buttonLink: '#products',
@@ -34,7 +34,7 @@ const slides = [
   {
     title: 'Elegant Wash Basins',
     description: 'Discover wash basins and counters that blend artistry with functionality.',
-    image: 'https://placehold.co/1920x1080',
+    image: 'https://images.pexels.com/photos/5461586/pexels-photo-5461586.jpeg',
     hint: 'glass wash basin',
     buttonLabel: 'See Basins',
     buttonLink: '#products',
