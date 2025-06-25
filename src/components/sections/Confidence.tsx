@@ -13,7 +13,7 @@ const confidenceItems = [
     hint: 'tile storefront',
   },
   {
-    src: 'https://placehold.co/400x500.png',
+    src: 'https://images.unsplash.com/photo-1731045521151-07a0fe502009?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxtb3NhaWMlMjB0aWxlc3xlbnwwfHx8fDE3NTA4NzEwODh8MA&ixlib=rb-4.1.0&q=80&w=1080',
     alt: 'Two designers collaborating over tile samples.',
     hint: 'designers collaboration',
   },
