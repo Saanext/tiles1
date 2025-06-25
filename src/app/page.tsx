@@ -6,6 +6,7 @@ import Testimonials from '@/components/sections/Testimonials';
 import Contact from '@/components/sections/Contact';
 import About from '@/components/sections/About';
 import Confidence from '@/components/sections/Confidence';
+import ImageCollage from '@/components/sections/ImageCollage';
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
         <About />
         <Products />
         <Confidence />
+        <ImageCollage />
         <Testimonials />
         <Contact />
       </main>
