@@ -1,27 +1,97 @@
-import { Button } from '../ui/button';
+'use client';
+
+import * as React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
+import Autoplay from 'embla-carousel-autoplay';
+
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from '@/components/ui/carousel';
+import { Button } from '../ui/button';
+
+const slides = [
+  {
+    title: 'STYLEON ART FACTORY',
+    description: 'Crafting beauty in glass and stone for the most discerning spaces.',
+    image: 'https://placehold.co/1920x1080',
+    hint: 'modern interior',
+    buttonLabel: 'Explore Collections',
+    buttonLink: '#products',
+  },
+  {
+    title: 'Exquisite Crystal Mosaics',
+    description: 'Transform your interiors with our dazzling collection of crystal glass mosaics.',
+    image: 'https://placehold.co/1920x1080',
+    hint: 'crystal mosaic tile',
+    buttonLabel: 'View Mosaics',
+    buttonLink: '#products',
+  },
+  {
+    title: 'Elegant Wash Basins',
+    description: 'Discover wash basins and counters that blend artistry with functionality.',
+    image: 'https://placehold.co/1920x1080',
+    hint: 'glass wash basin',
+    buttonLabel: 'See Basins',
+    buttonLink: '#products',
+  },
+];
 
 const Hero = () => {
+  const plugin = React.useRef(
+    Autoplay({ delay: 5000, stopOnInteraction: true })
+  );
+
   return (
-    <section
-      className="relative bg-cover bg-center bg-no-repeat"
-      style={{ backgroundImage: "url('https://placehold.co/1920x1080.png')" }}
-      data-ai-hint="modern interior"
-    >
-      <div className="absolute inset-0 bg-black/60" />
-      <div className="relative container mx-auto px-4 sm:px-6 lg:px-8 flex flex-col items-center text-center py-24 md:py-32 lg:py-40">
-        <h1 className="font-headline text-4xl font-extrabold tracking-tight sm:text-6xl md:text-7xl text-primary-foreground dark:text-foreground">
-          STYLEON ART FACTORY
-        </h1>
-        <p className="mt-6 max-w-2xl text-lg sm:text-xl text-primary-foreground/80 dark:text-foreground/80">
-          Crafting beauty in glass and stone for the most discerning spaces.
-        </p>
-        <div className="mt-10">
-          <Button asChild size="lg" className="font-bold px-10 py-6 text-lg">
-            <Link href="#products">Explore Collections</Link>
-          </Button>
+    <section className="w-full">
+      <Carousel
+        plugins={[plugin.current]}
+        className="w-full"
+        onMouseEnter={plugin.current.stop}
+        onMouseLeave={plugin.current.reset}
+        opts={{
+          loop: true,
+        }}
+      >
+        <CarouselContent>
+          {slides.map((slide, index) => (
+            <CarouselItem key={index}>
+              <div className="relative h-[60vh] md:h-[80vh] w-full">
+                <Image
+                  src={slide.image}
+                  alt={slide.title}
+                  data-ai-hint={slide.hint}
+                  fill
+                  style={{ objectFit: 'cover' }}
+                  priority={index === 0}
+                />
+                <div className="absolute inset-0 bg-black/60" />
+                <div className="relative container mx-auto px-4 sm:px-6 lg:px-8 h-full flex flex-col items-center justify-center text-center text-primary-foreground">
+                  <h1 className="font-headline text-4xl font-extrabold tracking-tight sm:text-6xl md:text-7xl">
+                    {slide.title}
+                  </h1>
+                  <p className="mt-6 max-w-2xl text-lg sm:text-xl text-primary-foreground/80">
+                    {slide.description}
+                  </p>
+                  <div className="mt-10">
+                    <Button asChild size="lg" className="font-bold px-10 py-6 text-lg">
+                      <Link href={slide.buttonLink}>{slide.buttonLabel}</Link>
+                    </Button>
+                  </div>
+                </div>
+              </div>
+            </CarouselItem>
+          ))}
+        </CarouselContent>
+        <div className="hidden md:block">
+            <CarouselPrevious className="absolute left-8 top-1/2 -translate-y-1/2 z-10 bg-white/20 hover:bg-white/40 text-white border-white/50" />
+            <CarouselNext className="absolute right-8 top-1/2 -translate-y-1/2 z-10 bg-white/20 hover:bg-white/40 text-white border-white/50" />
         </div>
-      </div>
+      </Carousel>
     </section>
   );
 };
