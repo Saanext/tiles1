@@ -21,7 +21,7 @@ const collageItems = [
     className: 'col-span-1 row-span-1',
   },
   {
-    src: 'https://placehold.co/800x400.png',
+    src: 'https://images.unsplash.com/photo-1647670550126-4bc4a1877e8c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxOXx8bW9zYWljJTIwdGlsZXN8ZW58MHx8fHwxNzUwODcxMDg4fDA&ixlib=rb-4.1.0&q=80&w=1080',
     alt: 'A wide shot of luxury bathroom furnishings.',
     hint: 'luxury furnishing',
     className: 'col-span-2 row-span-1',
