@@ -25,7 +25,7 @@ export const products: Product[] = [
     category: 'Basins',
     color: 'Gray',
     material: 'Stone',
-    image: 'https://www.styleonartfactory.com/wp-content/uploads/2018/05/CT01GB-247x296.jpg',
+    image: 'https://images.unsplash.com/photo-1731045521151-07a0fe502009?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxtb3NhaWMlMjB0aWxlc3xlbnwwfHx8fDE3NTA4NzEwODh8MA&ixlib=rb-4.1.0&q=80&w=1080',
     hint: 'stone sink'
   },
   {
