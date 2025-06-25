@@ -15,7 +15,7 @@ const collageItems = [
     className: 'col-span-1 row-span-1',
   },
   {
-    src: 'https://placehold.co/400x400.png',
+    src: 'https://images.unsplash.com/photo-1612943727571-cb640916f47b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxtb3NpYWN8ZW58MHx8fHwxNzUwODc2ODA3fDA&ixlib=rb-4.1.0&q=80&w=1080',
     alt: 'A modern bathroom featuring a sleek stone wash basin.',
     hint: 'modern bathroom',
     className: 'col-span-1 row-span-1',
