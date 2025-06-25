@@ -16,7 +16,7 @@ export const products: Product[] = [
     category: 'Tiles',
     color: 'White',
     material: 'Glass',
-    image: 'https://www.styleonartfactory.com/wp-content/uploads/2018/05/CT01GB-247x296.jpg',
+    image: 'https://images.unsplash.com/photo-1602750600155-1970ac3ad999?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxtb3NpYyUyMHRpbGVzfGVufDB8fHx8MTc1MDg3NjczMXww&ixlib=rb-4.1.0&q=80&w=1080',
     hint: 'white tile'
   },
   {
