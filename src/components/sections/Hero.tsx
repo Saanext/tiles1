@@ -43,7 +43,7 @@ const slides = [
 
 const Hero = () => {
   return (
-    <section className="w-full">
+    <div className="w-full">
       <Carousel
         className="w-full"
         opts={{
@@ -85,7 +85,7 @@ const Hero = () => {
             <CarouselNext className="absolute right-8 top-1/2 -translate-y-1/2 z-10 bg-white/20 hover:bg-white/40 text-white border-white/50" />
         </div>
       </Carousel>
-    </section>
+    </div>
   );
 };
 
