@@ -2,7 +2,6 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import Hero from '@/components/sections/Hero';
 import Products from '@/components/sections/Products';
-import DesignTool from '@/components/sections/DesignTool';
 import Testimonials from '@/components/sections/Testimonials';
 import Contact from '@/components/sections/Contact';
 import About from '@/components/sections/About';
@@ -17,7 +16,6 @@ export default function Home() {
         <About />
         <Products />
         <Confidence />
-        <DesignTool />
         <Testimonials />
         <Contact />
       </main>
