@@ -7,7 +7,7 @@ export const products: Product[] = [
     category: 'Mosaics',
     color: 'Blue',
     material: 'Crystal',
-    image: 'https://placehold.co/600x600',
+    image: 'https://images.unsplash.com/photo-1700574064768-cfc4bbb55ca1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMnx8bW9zYWljJTIwdGlsZXN8ZW58MHx8fHwxNzUwODcxMDg4fDA&ixlib=rb-4.1.0&q=80&w=1080',
     hint: 'blue mosaic'
   },
   {
