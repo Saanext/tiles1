@@ -11,8 +11,10 @@ import {
   CarouselItem,
   CarouselNext,
   CarouselPrevious,
+  type CarouselApi,
 } from '@/components/ui/carousel';
 import { Button } from '../ui/button';
+import Typewriter from '../Typewriter';
 
 const slides = [
   {
@@ -42,9 +44,24 @@ const slides = [
 ];
 
 const Hero = () => {
+  const [api, setApi] = React.useState<CarouselApi>();
+  const [current, setCurrent] = React.useState(0);
+
+  React.useEffect(() => {
+    if (!api) {
+      return;
+    }
+
+    setCurrent(api.selectedScrollSnap());
+    api.on('select', () => {
+      setCurrent(api.selectedScrollSnap());
+    });
+  }, [api]);
+
   return (
     <div className="w-full">
       <Carousel
+        setApi={setApi}
         className="w-full"
         opts={{
           loop: true,
@@ -64,9 +81,18 @@ const Hero = () => {
                 />
                 <div className="absolute inset-0 bg-black/60" />
                 <div className="relative container mx-auto px-4 sm:px-6 lg:px-8 h-full flex flex-col items-center justify-center text-center text-primary-foreground">
-                  <h1 className="font-headline text-4xl font-extrabold tracking-tight sm:text-6xl md:text-7xl">
-                    {slide.title}
-                  </h1>
+                  {index === current ? (
+                    <Typewriter
+                      key={current}
+                      text={slide.title}
+                      className="font-headline text-4xl font-extrabold tracking-tight sm:text-6xl md:text-7xl"
+                      as="h1"
+                    />
+                  ) : (
+                    <h1 className="font-headline text-4xl font-extrabold tracking-tight sm:text-6xl md:text-7xl">
+                      <span className="min-h-[1.2em] inline-block">{slide.title}</span>
+                    </h1>
+                  )}
                   <p className="mt-6 max-w-2xl text-lg sm:text-xl text-primary-foreground/80">
                     {slide.description}
                   </p>
